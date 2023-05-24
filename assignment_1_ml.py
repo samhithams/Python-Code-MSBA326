@@ -9,10 +9,14 @@ Original file is located at
 #5
 nm = input("Enter your name : ")
 print('Welcome ', nm)
+
+
 #6
 cel_temp = int(input("Enter temp in Celsius"))
 fah_temp = (cel_temp * 9/5) +32
 print('Fahrenheit temperature is :',fah_temp)
+
+
 #7
 no_of_hours = int(input("Input the number of hours: "))
 rate_per_hour = int(input("Input the rate/ hour: "))
@@ -24,6 +28,8 @@ if no_of_hours > 40:
 else:
   regular_rate = no_of_hours * rate_per_hour
   print('The gross pay is : ', regular_rate)
+    
+    
 #8
 numbers = []
 total = 0
